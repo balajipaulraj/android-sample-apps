@@ -16,6 +16,7 @@ import com.ooyala.sample.lists.IMAListActivity;
 import com.ooyala.sample.lists.MultiAudioListActivity;
 import com.ooyala.sample.lists.OoyalaSkinListActivity;
 import com.ooyala.sample.lists.SsaiListActivity;
+import com.ooyala.sample.players.AddAssetActivity;
 import com.ooyala.sample.lists.ScreenshotListActivity;
 import com.ooyala.sample.players.AssetActivity;
 import com.ooyala.sample.players.ResizablePlayerActivity;
@@ -57,6 +58,7 @@ public class MainActivity extends Activity implements OnItemClickListener {
     activityMap.put(GeoBlockingListActivity.getName(), GeoBlockingListActivity.class);
     activityMap.put(ScreenshotListActivity.getName(), ScreenshotListActivity.class);
     activityMap.put(MultiAudioListActivity.getName(), MultiAudioListActivity.class);
+    activityMap.put(AddAssetActivity.getName(), AddAssetActivity.class);
     activityMap.put(SsaiListActivity.getName(), SsaiListActivity.class);
 
     for(String key : activityMap.keySet()) {
