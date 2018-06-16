@@ -1,0 +1,13 @@
+{
+  "videoplaza-ads-manager": {
+    "metadata": {
+      "all_ads": [{
+        "position": "7"
+      }],
+      "playerLevelCuePoints": "30,10,20",
+      "playerLevelShares": "nab",
+      "playerLevelTags": "me,mw,fe,fw",
+      "vpDomain": "live-team"
+    }
+  }
+}
